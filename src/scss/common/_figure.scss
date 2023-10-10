@@ -1,0 +1,122 @@
+#figure {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    background-color: #555;
+    margin-right: 200px;
+
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.4; 
+            border-radius: 50px;
+
+        }
+        .inner {
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+            h2 {
+                font: bold 60px/1 "arial";
+                font-family: 'Barriecito', cursive;
+                color: aquamarine;
+                margin-bottom: 50px;
+                display: block;
+                opacity: 0.7;
+                margin-left: 50px;
+            }
+    
+            p {
+                font: 25px/1 "arial";
+                color: #fff;
+                margin-bottom: 30px;
+                font-family: 'Tilt Prism', cursive;
+                margin-left: 30px;
+               
+            }
+    
+            a {
+                display: block;
+                width: 400px;
+                height: 30px;
+                border: 1px solid #bbb;
+                text-align: center;
+                font: bold 11px/30px "arial";
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                //margin-left: 50px;
+    
+              &:hover{
+                background-color: #fff;
+                color: #555;
+                }
+            }
+        }
+    }  
+
+@media screen and (max-width:1180px) {
+#figure {
+    background: linear-gradient(120deg ,blue , red);
+    width: 100%;
+    height: 80vh;
+    .inner{
+        width: 100%;
+        padding: 0px 20px;
+
+        h2{
+            // font: normal 14vw/1 "arial";
+            font-size: 9px;
+            font-family: 'Barriecito', cursive;
+            color: chartreuse;
+            margin-top: 200px;
+        }
+        a {
+            display: fixed;
+            width: 100%;
+            height: 20px;
+            border: 1px solid #bbb;
+            text-align: center;
+            color: #fff;
+        }
+        
+
+    }   
+} 
+}
+@media screen and (max-width:393px) {
+    #figure {
+        background: linear-gradient(120deg ,blue , red);
+        width: 100%;
+        height: 80vh;
+        .inner{
+            width: 100%;
+            padding: 0px 10px;
+    
+            h2{
+                font: normal 10vw/1 "arial";
+                font-size: 10px;
+                font-family: 'Barriecito', cursive;
+                color: chartreuse;
+                margin-top: 100px;
+            }
+            a {
+                display: block;
+                width: 100%;
+                height: 20px;
+                border: 1px solid #bbb;
+                text-align: center;
+                font: 10px;
+                color: #fff;
+            }
+        }   
+    } 
+}
+    

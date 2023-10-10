@@ -1,0 +1,73 @@
+.Information{
+    width: 100%;
+    height: 100vw;
+    .inner{
+        h1{
+            font-size:300%;
+            font-weight:normal;
+            margin:0px;
+            text-align : left;
+            margin-left: 20vh;
+            font-family : 'Oswald', sans-serif;
+        }
+    }
+
+   
+
+    .section{
+        width:80%;
+        border-top:1px solid #777;
+        padding:20px 0;
+        margin:auto;
+
+        .pageitem {
+            display:table;
+            table-layout:fixed;
+            width:100%;
+            margin-bottom:15px;
+            padding-top:15px;
+            text-align:justify;
+
+            .jog{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                video{
+                    width: 40%;
+                    opacity: 0.8;
+                    border-radius: 30%;
+                    box-shadow: 10px 15px 15px #000;
+                }
+            }
+
+           
+            h2{
+                font-size:180%;
+                background-color:inherit;
+                color:#444;
+                margin-top:0;
+            }
+            p{
+                padding:0;
+                margin:1em 0;
+                font-size:115%;
+            }
+            a{
+                text-decoration:underline;
+            }
+            .col{
+                padding: 0 2% 0 1%;
+                display: table-cell;
+                img{
+                    width: 39%;
+                    height: 30%;
+                    position: absolute;
+                    margin-right: 300px;
+                    box-shadow: 10px 10px 15px #000;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

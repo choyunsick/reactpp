@@ -1,0 +1,25 @@
+h4{
+    font-size: 60px;
+    color: red;
+    margin-left: 100px;
+}
+
+
+.youtube {
+    position: relative;
+    height: 900px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    iframe{
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        margin-top: 20px;
+        opacity: 0.8;
+        border-radius: 20px;
+    }
+}  
