@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactpp/static/css/main.c1945829.css",
+    "main.js": "/reactpp/static/js/main.3b120a1b.js",
+    "index.html": "/reactpp/index.html",
+    "main.c1945829.css.map": "/reactpp/static/css/main.c1945829.css.map",
+    "main.3b120a1b.js.map": "/reactpp/static/js/main.3b120a1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1945829.css",
+    "static/js/main.3b120a1b.js"
+  ]
+}

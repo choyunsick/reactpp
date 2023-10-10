@@ -17,8 +17,8 @@ function Join() {
   }
 
   return (
-    <div className="App">
-    <header className="App-header">
+    <div className="Join">
+    <header className="Join-sub-header">
       <input type="text" value={input} onChange={inputChange}/>
       <button onClick={buttonClick}>UPDATE</button>
       {names.map((name, index) => {

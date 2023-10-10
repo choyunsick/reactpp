@@ -1501,93 +1501,20 @@ h4 {
   border-radius: 20px;
 }
 
-body {
+#Join {
   width: 100%;
 }
-body .joinup {
-  width: 100%;
-  align-items: center;
+#Join #Join-sub-header {
+  width: 1180px;
+  margin: 0 auto;
 }
-
-input {
-  border: 1px solid black;
-  border-radius: 3px;
-  line-height: 35px;
-  font-size: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
+#Join #Join-sub-header input {
+  width: 1180px;
+  margin: 0 auto;
+  background-color: red;
 }
-
-.wrapper {
-  padding: 10px;
-}
-.wrapper div {
-  padding-top: 3px;
-  padding-bottom: 8px;
-}
-.wrapper .title {
-  text-align: center;
-  font-weight: 700;
-}
-
-.email input {
-  width: 100%;
-  text-align: center;
-}
-
-.name input {
-  width: 100%;
-  text-align: center;
-}
-
-.password input {
-  width: 100%;
-  text-align: center;
-}
-
-.passwordCheck input {
-  width: 100%;
-  text-align: center;
-}
-
-.phone {
-  display: flex;
-  justify-content: space-between;
-}
-
-#phone1 {
-  width: 30%;
-}
-
-#phone2 {
-  width: 30%;
-}
-
-#phone3 {
-  width: 30%;
-}
-
-.area select {
-  width: 100%;
-  height: 40px;
-}
-
-.gender {
-  text-align: center;
-}
-
-.signUp button {
-  width: 100%;
-  cursor: pointer;
-}
-
-button {
-  cursor: pointer;
-  height: 30px;
-}
-button:hover {
-  background-color: aquamarine;
-  color: red;
+#Join #Join-sub-header button {
+  width: 1180px;
 }
 
 body {

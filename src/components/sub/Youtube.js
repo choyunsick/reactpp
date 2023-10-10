@@ -14,9 +14,9 @@ function Youtube() {
 
   return (
     <div className="Youtube">
-    <div>
-      <button onClick={playVideo}>Play</button>
-      <button onClick={pauseVideo}>Pause</button>
+    <div className='button'>
+      <button onClick={playVideo}>시작</button>
+      <button onClick={pauseVideo}>정지</button>
     </div>
     <video ref={videoRef} width="320" height="240" controls>
       <source
