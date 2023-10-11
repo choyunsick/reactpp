@@ -5,7 +5,7 @@ import { useState } from "react";
 //common
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
-import Layput from "./components/common/Layput";
+
 
 
 //main

@@ -6,7 +6,7 @@ function Footer() {
     <div id="footer">
     <form className="newslatter_form">
      </form>
-    <div class="inner">
+    <div className="inner">
         <h1>FITNESS COMPANY</h1>
 
         <ul>

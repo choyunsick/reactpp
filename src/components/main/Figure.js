@@ -6,7 +6,9 @@ function Figure() {
     {/* <video src="./video/figurevideo.mp4"></video> */}
     {/* <video src="video/figurevideo.mp4" autoplay loop muted></video> */}
     {/* <video src="/video/figurevideo" autoplay loop muted></video> */}
-  
+    <div className="imgs">
+        <img src={process.env.PUBLIC_URL + '/img/성취감을 주는 사진.jpg' } alt="계주에서 1등으로 들어오는 모습" />
+    </div>
   
     {/* <video muted autoPlay loop>
             <source src='./video/figurevideo.mp4'/>

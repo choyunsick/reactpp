@@ -198,17 +198,20 @@ a {
 }
 #figure {
   width: 100%;
-  height: 80%;
+  height: 100vh;
   overflow: hidden;
   background-color: #555;
   margin-right: 200px;
 }
-#figure video {
+#figure .imgs {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+#figure .imgs img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
-  border-radius: 50px;
 }
 #figure .inner {
   width: 100%;

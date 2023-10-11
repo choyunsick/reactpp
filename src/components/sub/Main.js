@@ -5,15 +5,17 @@ function Main() {
 <div id="main">
 <div id="figure">
     {/* <video src="./video/figurevideo.mp4"></video> */}
-
+    <div className="imgs">
+        <img src={process.env.PUBLIC_URL + '/img/성취감을 주는 사진.jpg' } alt="계주에서 1등으로 들어오는 모습" />
+    </div>
     {/* <video muted autoPlay loop>
             <source src='./video/figurevideo.mp4'/>
     </video> */}
 
-<video width="320" height="240" controls>
+{/* <video width="320" height="240" controls>
       <source src="./video/figurevideo.mp4" type="video/mp4" />
       브라우저가 video 태그를 지원하지 않습니다.
-    </video>
+    </video> */}
 
     <div className="inner">
         <h2>My own training to make a refreshing day!</h2>
