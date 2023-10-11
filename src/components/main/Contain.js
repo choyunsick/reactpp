@@ -5,7 +5,7 @@ import React from 'react';
 function Contain() {
   return (
     <div id="contain">
-    <div class="container">
+    <div className="container">
         <h1>FITNESS Asked Questions</h1>
         <div class="tab">
 
@@ -14,42 +14,42 @@ function Contain() {
                 <h2><i class="fa-solid fa-person-walking"></i></h2>
                 <h3>How do you exercise?</h3>
             </label>
-            <div class="content">
+            <div className="content">
                 <p>There's no right answer to exercise, but there are two main ways There are aerobic and muscular exercises
                   To increase endurance, you need to do aerobic exercise. To increase muscle strength, you need to do weight training</p>
             </div>
         </div>
-        <div class="tab">
+        <div className="tab">
             <input type="radio" name="acc" id="acc2" />
             <label for="acc2">
                 <h2><i class="fa-regular fa-clock"></i></h2>
                 <h3>What time of day is best to work out?</h3>
             </label>
-            <div class="content">
+            <div className="content">
                 <p>The best time to work out is whenever you can fit it in! Have a look at your schedule and figure out what time of day is best for you.
                   If your routine is flexible, think about when you feel most energetic, or when you would prefer to exercise. Morning workouts can be an energising way to start the day for some, while others prefer working out in the afternoons or evenings. 
                   Consistency is what matters, so focus on working out when it works best for you, which will make it more enjoyable and easier to stick to! </p>
             </div>
         </div>
-        <div class="tab">
+        <div className="tab">
             <input type="radio" name="acc" id="acc3" />
             <label for="acc3">
                 <h2><i class="fa-solid fa-dumbbell"></i></h2>
                 <h3>Do I need to warm up before my workouts?</h3>
             </label>
-            <div class="content">
+            <div className="content">
                 <p>You bet! We know it can be tempting to get straight into it, especially if you’re short on time, but a proper warm-up is really important. 
                   According to the Mayo Clinic, warming up and cooling down may help reduce your risk of injury and improve performance. A good warm-up prepares your body for activity, raises your body temperature and increases blood flow to your muscles.
                   A simple warm-up can be five minutes of cardio or some dynamic stretching of the muscles you are about to use. Each workout in the Sweat app comes with optional warm-ups you can follow. </p>
             </div>
         </div>
-        <div class="tab">
+        <div className="tab">
             <input type="radio" name="acc" id="acc4" />
             <label for="acc4">
                 <h2><i class="fa-solid fa-heart-pulse"></i></h2>
                 <h3>Should I do strength training, cardio or both</h3>
             </label>
-            <div class="content">
+            <div className="content">
                 <p>We recommend a mixture of cardio and strength training.
                   Alternating between the two is a good way to find balance. 
                   Why both and not just one? Because you want to reap the benefits of each! 

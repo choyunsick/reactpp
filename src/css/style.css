@@ -1225,13 +1225,11 @@ a {
   padding-top: 15px;
   text-align: justify;
 }
-.Information .section .pageitem .jog {
+.Information .section .pageitem video {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.Information .section .pageitem .jog video {
   width: 40%;
   opacity: 0.8;
   border-radius: 30%;

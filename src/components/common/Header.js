@@ -16,10 +16,10 @@ export default function Header ({ type }) {
     <header className={type}>
 
             <div id="header">
-    <div class="inner">
+    <div className="inner">
         <h1>←FITNESS COMPANY→</h1>
 
-        <nav class="menu">
+        <nav className="menu">
             <ul id="main">
             <li>
                         <NavLink to="/Main" activeStyle={active}>
@@ -48,11 +48,11 @@ export default function Header ({ type }) {
                     </li>
             </ul>
          </nav>
-         <a href="#" class="cctvCall">
+         <a href="#" className="cctvCall">
             <span>메뉴호출</span>
         </a>
 
-        <nav class="menuMo">
+        <nav className="menuMo">
             <h1>
                 <a href="index.html">DECODELAB</a>
                 <span>UI/UX DEVELOPMENT INSTITUTE</span>

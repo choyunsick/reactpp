@@ -3,9 +3,9 @@ import React from 'react'
 function News() {
   return (
     <div id="news">
-    <div class="inner">
+    <div className="inner">
         <h1>☞FITNESS NEWS☜</h1>
-        <div class="wrap">
+        <div className="wrap">
         </div>
     </div>
 </div>

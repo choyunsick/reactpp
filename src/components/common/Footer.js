@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <div id="footer">
-    <form class="newslatter_form">
+    <form className="newslatter_form">
      </form>
     <div class="inner">
         <h1>FITNESS COMPANY</h1>
